@@ -7,17 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		045FECE71F5D8837004F555D /* OTTDoubleEntrantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FECE61F5D8837004F555D /* OTTDoubleEntrantView.swift */; };
+		045FECE81F5D8837004F555D /* OTTDoubleEntrantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FECE61F5D8837004F555D /* OTTDoubleEntrantView.swift */; };
+		045FECEA1F5D8857004F555D /* OTTSingleEntrantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FECE91F5D8857004F555D /* OTTSingleEntrantView.swift */; };
+		045FECEB1F5D8857004F555D /* OTTSingleEntrantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FECE91F5D8857004F555D /* OTTSingleEntrantView.swift */; };
+		045FECED1F5D887E004F555D /* OTTSingleEntrantView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 045FECEC1F5D887E004F555D /* OTTSingleEntrantView.xib */; };
+		045FECEE1F5D887E004F555D /* OTTSingleEntrantView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 045FECEC1F5D887E004F555D /* OTTSingleEntrantView.xib */; };
+		045FECF01F5D888F004F555D /* OTTDoubleEntrantView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 045FECEF1F5D888F004F555D /* OTTDoubleEntrantView.xib */; };
+		045FECF11F5D888F004F555D /* OTTDoubleEntrantView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 045FECEF1F5D888F004F555D /* OTTDoubleEntrantView.xib */; };
+		0481C8891F5D7B6A00FBE0DA /* OTTournamentViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF156D1F599C6800BE9044 /* OTTournamentViewTests.swift */; };
 		04BF15001F599ACC00BE9044 /* OTTournamentView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BF14F61F599ACC00BE9044 /* OTTournamentView.framework */; };
-		04BF156E1F599C6800BE9044 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04BF15691F599C6800BE9044 /* Info.plist */; };
-		04BF156F1F599C6800BE9044 /* OTTournamentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 04BF156A1F599C6800BE9044 /* OTTournamentView.h */; };
-		04BF15701F599C6800BE9044 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04BF156C1F599C6800BE9044 /* Info.plist */; };
-		04BF15711F599C6800BE9044 /* OTTournamentViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF156D1F599C6800BE9044 /* OTTournamentViewTests.swift */; };
+		04BF156F1F599C6800BE9044 /* OTTournamentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 04BF156A1F599C6800BE9044 /* OTTournamentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04BF15821F59AB7900BE9044 /* OTTournamentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF157F1F59AB7900BE9044 /* OTTournamentView.swift */; };
 		04BF15831F59AB7900BE9044 /* OTTournamentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF157F1F59AB7900BE9044 /* OTTournamentView.swift */; };
 		04BF15841F59AB7900BE9044 /* OTTournamentViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF15801F59AB7900BE9044 /* OTTournamentViewDataSource.swift */; };
 		04BF15851F59AB7900BE9044 /* OTTournamentViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF15801F59AB7900BE9044 /* OTTournamentViewDataSource.swift */; };
 		04BF15861F59AB7900BE9044 /* OTTournamentViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF15811F59AB7900BE9044 /* OTTournamentViewDelegate.swift */; };
 		04BF15871F59AB7900BE9044 /* OTTournamentViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF15811F59AB7900BE9044 /* OTTournamentViewDelegate.swift */; };
+		04BF15911F59BA2700BE9044 /* OTTEntrantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF15901F59BA2700BE9044 /* OTTEntrantCell.swift */; };
+		04BF15921F59BA2700BE9044 /* OTTEntrantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF15901F59BA2700BE9044 /* OTTEntrantCell.swift */; };
+		04D5BCC41F59E7D600F8849A /* OTTEntrantCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D5BCC31F59E7D600F8849A /* OTTEntrantCell.xib */; };
+		04D5BCC51F59E7D600F8849A /* OTTEntrantCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D5BCC31F59E7D600F8849A /* OTTEntrantCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		045FECE61F5D8837004F555D /* OTTDoubleEntrantView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OTTDoubleEntrantView.swift; path = Classes/OTTDoubleEntrantView/OTTDoubleEntrantView.swift; sourceTree = SOURCE_ROOT; };
+		045FECE91F5D8857004F555D /* OTTSingleEntrantView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OTTSingleEntrantView.swift; path = Classes/OTTSingleEntrantView/OTTSingleEntrantView.swift; sourceTree = SOURCE_ROOT; };
+		045FECEC1F5D887E004F555D /* OTTSingleEntrantView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OTTSingleEntrantView.xib; path = Classes/OTTSingleEntrantView/OTTSingleEntrantView.xib; sourceTree = SOURCE_ROOT; };
+		045FECEF1F5D888F004F555D /* OTTDoubleEntrantView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OTTDoubleEntrantView.xib; path = Classes/OTTDoubleEntrantView/OTTDoubleEntrantView.xib; sourceTree = SOURCE_ROOT; };
 		04BF14F61F599ACC00BE9044 /* OTTournamentView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OTTournamentView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BF14FF1F599ACC00BE9044 /* OTTournamentViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTTournamentViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BF15691F599C6800BE9044 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,6 +54,8 @@
 		04BF157F1F59AB7900BE9044 /* OTTournamentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTTournamentView.swift; sourceTree = "<group>"; };
 		04BF15801F59AB7900BE9044 /* OTTournamentViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTTournamentViewDataSource.swift; sourceTree = "<group>"; };
 		04BF15811F59AB7900BE9044 /* OTTournamentViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTTournamentViewDelegate.swift; sourceTree = "<group>"; };
+		04BF15901F59BA2700BE9044 /* OTTEntrantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OTTEntrantCell.swift; path = Classes/OTTEntrantCell/OTTEntrantCell.swift; sourceTree = SOURCE_ROOT; };
+		04D5BCC31F59E7D600F8849A /* OTTEntrantCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OTTEntrantCell.xib; path = Classes/OTTEntrantCell/OTTEntrantCell.xib; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +77,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		045FECE41F5D85E3004F555D /* OTTDoubleEntrantView */ = {
+			isa = PBXGroup;
+			children = (
+				045FECE61F5D8837004F555D /* OTTDoubleEntrantView.swift */,
+				045FECEF1F5D888F004F555D /* OTTDoubleEntrantView.xib */,
+			);
+			name = OTTDoubleEntrantView;
+			sourceTree = "<group>";
+		};
+		045FECE51F5D860E004F555D /* OTTSingleEntrantView */ = {
+			isa = PBXGroup;
+			children = (
+				045FECE91F5D8857004F555D /* OTTSingleEntrantView.swift */,
+				045FECEC1F5D887E004F555D /* OTTSingleEntrantView.xib */,
+			);
+			name = OTTSingleEntrantView;
+			sourceTree = "<group>";
+		};
 		04BF14EC1F599ACC00BE9044 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +118,9 @@
 			isa = PBXGroup;
 			children = (
 				04BF157E1F59AB7900BE9044 /* OTTournamentView */,
+				04BF158F1F59BA0400BE9044 /* OTTEntrantCell */,
+				045FECE51F5D860E004F555D /* OTTSingleEntrantView */,
+				045FECE41F5D85E3004F555D /* OTTDoubleEntrantView */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -119,6 +156,15 @@
 			name = OTTournamentView;
 			path = Classes/OTTournamentView;
 			sourceTree = SOURCE_ROOT;
+		};
+		04BF158F1F59BA0400BE9044 /* OTTEntrantCell */ = {
+			isa = PBXGroup;
+			children = (
+				04BF15901F59BA2700BE9044 /* OTTEntrantCell.swift */,
+				04D5BCC31F59E7D600F8849A /* OTTEntrantCell.xib */,
+			);
+			name = OTTEntrantCell;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -216,8 +262,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04BF15701F599C6800BE9044 /* Info.plist in Resources */,
-				04BF156E1F599C6800BE9044 /* Info.plist in Resources */,
+				045FECF01F5D888F004F555D /* OTTDoubleEntrantView.xib in Resources */,
+				04D5BCC41F59E7D600F8849A /* OTTEntrantCell.xib in Resources */,
+				045FECED1F5D887E004F555D /* OTTSingleEntrantView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +272,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045FECF11F5D888F004F555D /* OTTDoubleEntrantView.xib in Resources */,
+				04D5BCC51F59E7D600F8849A /* OTTEntrantCell.xib in Resources */,
+				045FECEE1F5D887E004F555D /* OTTSingleEntrantView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,10 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04BF15711F599C6800BE9044 /* OTTournamentViewTests.swift in Sources */,
 				04BF15841F59AB7900BE9044 /* OTTournamentViewDataSource.swift in Sources */,
 				04BF15821F59AB7900BE9044 /* OTTournamentView.swift in Sources */,
+				045FECE71F5D8837004F555D /* OTTDoubleEntrantView.swift in Sources */,
+				04BF15911F59BA2700BE9044 /* OTTEntrantCell.swift in Sources */,
 				04BF15861F59AB7900BE9044 /* OTTournamentViewDelegate.swift in Sources */,
+				045FECEA1F5D8857004F555D /* OTTSingleEntrantView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,8 +298,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045FECEB1F5D8857004F555D /* OTTSingleEntrantView.swift in Sources */,
+				045FECE81F5D8837004F555D /* OTTDoubleEntrantView.swift in Sources */,
 				04BF15851F59AB7900BE9044 /* OTTournamentViewDataSource.swift in Sources */,
 				04BF15831F59AB7900BE9044 /* OTTournamentView.swift in Sources */,
+				0481C8891F5D7B6A00FBE0DA /* OTTournamentViewTests.swift in Sources */,
+				04BF15921F59BA2700BE9044 /* OTTEntrantCell.swift in Sources */,
 				04BF15871F59AB7900BE9044 /* OTTournamentViewDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +345,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -305,7 +362,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -343,6 +400,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -353,7 +411,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -374,7 +432,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = OTTournamentView/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/OTTournamentView/OTTournamentView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TomosukeOkada.OTTournamentView;
@@ -395,7 +453,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = OTTournamentView/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/OTTournamentView/OTTournamentView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TomosukeOkada.OTTournamentView;
@@ -412,7 +470,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = NG4PAUE398;
-				INFOPLIST_FILE = OTTournamentViewTests/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/OTTournamentView/OTTournamentViewTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TomosukeOkada.OTTournamentViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,7 +485,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = NG4PAUE398;
-				INFOPLIST_FILE = OTTournamentViewTests/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/OTTournamentView/OTTournamentViewTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TomosukeOkada.OTTournamentViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12121"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OTTDoubleEntrantView" customModule="OTTournamentView" customModuleProvider="target">
+            <connections>
+                <outlet property="cellHeightConstraint" destination="HIq-Wj-8eG" id="8Ta-dt-ISG"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wdW-qC-iXf" customClass="OTTEntrantCell" customModule="OTTournamentView" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="260" height="50"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="HIq-Wj-8eG"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SEo-8v-1lO" customClass="OTTEntrantCell" customModule="OTTournamentView" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="150.5" width="260" height="49.5"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qFe-h9-Xqz">
+                    <rect key="frame" x="0.0" y="50.5" width="300" height="100"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zjm-p0-U28">
+                            <rect key="frame" x="129.5" y="0.0" width="1" height="100"/>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="1" id="ql4-dC-H9p"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MKv-Jb-1nt">
+                            <rect key="frame" x="130.5" y="49.5" width="169.5" height="1"/>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="PwB-qI-JA9"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="MKv-Jb-1nt" firstAttribute="leading" secondItem="Zjm-p0-U28" secondAttribute="trailing" id="7Wh-Gk-PUe"/>
+                        <constraint firstItem="MKv-Jb-1nt" firstAttribute="centerY" secondItem="qFe-h9-Xqz" secondAttribute="centerY" id="8wO-Br-PkT"/>
+                        <constraint firstAttribute="bottom" secondItem="Zjm-p0-U28" secondAttribute="bottom" id="Pg3-dg-DGz"/>
+                        <constraint firstAttribute="trailing" secondItem="MKv-Jb-1nt" secondAttribute="trailing" id="TYM-R6-WY3"/>
+                        <constraint firstItem="Zjm-p0-U28" firstAttribute="top" secondItem="qFe-h9-Xqz" secondAttribute="top" id="YYL-bk-XEQ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="wdW-qC-iXf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="4va-YE-1eC"/>
+                <constraint firstItem="SEo-8v-1lO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="IXg-DP-Ma4"/>
+                <constraint firstAttribute="bottom" secondItem="SEo-8v-1lO" secondAttribute="bottom" id="Juh-M3-i6T"/>
+                <constraint firstItem="Zjm-p0-U28" firstAttribute="centerX" secondItem="wdW-qC-iXf" secondAttribute="centerX" id="Oqf-KF-pYn"/>
+                <constraint firstItem="qFe-h9-Xqz" firstAttribute="leading" secondItem="wdW-qC-iXf" secondAttribute="leading" id="P7h-EU-bMe"/>
+                <constraint firstItem="wdW-qC-iXf" firstAttribute="height" secondItem="SEo-8v-1lO" secondAttribute="height" id="VOx-w9-9CE"/>
+                <constraint firstItem="wdW-qC-iXf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="czI-B1-dhD"/>
+                <constraint firstAttribute="trailing" secondItem="wdW-qC-iXf" secondAttribute="trailing" constant="40" id="gT9-g4-R50"/>
+                <constraint firstItem="SEo-8v-1lO" firstAttribute="top" secondItem="qFe-h9-Xqz" secondAttribute="bottom" id="gXh-Uz-pTB"/>
+                <constraint firstAttribute="trailing" secondItem="qFe-h9-Xqz" secondAttribute="trailing" id="iaP-6H-2IJ"/>
+                <constraint firstItem="qFe-h9-Xqz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="kLp-hY-1lY"/>
+                <constraint firstItem="qFe-h9-Xqz" firstAttribute="top" secondItem="wdW-qC-iXf" secondAttribute="bottom" id="mpg-P6-c40"/>
+                <constraint firstItem="wdW-qC-iXf" firstAttribute="width" secondItem="SEo-8v-1lO" secondAttribute="width" id="y0t-kv-Qbs"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="34" y="122"/>
+        </view>
+    </objects>
+</document>

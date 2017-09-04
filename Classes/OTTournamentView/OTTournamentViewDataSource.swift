@@ -20,11 +20,15 @@
 
 import UIKit
 
-/// Implement this protocol to provide data to an `OTTournamentView`.
 public protocol OTTournamentViewDataSource: class {
+    
+    func numberOfEntrants(in tournamentView:OTTournamentView) -> Int
+    
+    func tournamentView(_ tournamentView: OTTournamentView, cellAtFirstRound entrantNo: Int, isSeed: Bool) -> OTTEntrantCell
     
 }
 
 extension OTTournamentViewDataSource {
-
+    
+    
 }

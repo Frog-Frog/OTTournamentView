@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OTTEntrantCell" customModule="OTTournamentView" customModuleProvider="target">
+            <connections>
+                <outlet property="imageView" destination="zQ1-ne-ANV" id="8AT-u5-Ssg"/>
+                <outlet property="titleLabel" destination="HWV-f7-e4S" id="58L-8P-yA4"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="70"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zQ1-ne-ANV">
+                    <rect key="frame" x="10" y="7" width="56" height="56"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="zQ1-ne-ANV" secondAttribute="height" multiplier="1:1" id="dvI-da-Su7"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="HWV-f7-e4S">
+                    <rect key="frame" x="76" y="23.5" width="214" height="24"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="HWV-f7-e4S" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="6qX-Xg-OUT"/>
+                <constraint firstItem="zQ1-ne-ANV" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Bet-cR-czx"/>
+                <constraint firstAttribute="trailing" secondItem="HWV-f7-e4S" secondAttribute="trailing" constant="10" id="CoU-yG-r0k"/>
+                <constraint firstItem="zQ1-ne-ANV" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="fB8-Bo-geI"/>
+                <constraint firstItem="zQ1-ne-ANV" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.8" id="qBs-5N-vlf"/>
+                <constraint firstItem="HWV-f7-e4S" firstAttribute="leading" secondItem="zQ1-ne-ANV" secondAttribute="trailing" constant="10" id="tDI-Lm-kQ9"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>
