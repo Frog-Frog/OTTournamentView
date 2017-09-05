@@ -1,26 +1,15 @@
 //
-//  OTTEntrantCell.swift
+//  OTTWinnerEntrantView.swift
 //  OTTournamentView
 //
-//  Created by Tomosuke Okada on 2017/09/02.
+//  Created by Tomosuke Okada on 2017/09/05.
 //  Copyright © 2017年 TomosukeOkada. All rights reserved.
 //
 
 import UIKit
 
-public protocol OTTEntrantCellDelegate: class {
-    
-}
+class OTTWinnerEntrantView: UIView {
 
-public class OTTEntrantCell: UIView {
-
-    public weak var delegate: OTTEntrantCellDelegate?
-    
-    public var entrantNo: Int?
-    
-    @IBOutlet public weak var imageView: UIImageView!
-    @IBOutlet public weak var titleLabel: UILabel!
-    
     //MARK:Initialize
     public override init(frame: CGRect) {
         super.init(frame: frame)
@@ -37,6 +26,5 @@ public class OTTEntrantCell: UIView {
     func initialize() {
         
     }
-    
-    
+
 }

@@ -11,21 +11,21 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OTTSingleEntrantView" customModule="OTTournamentView" customModuleProvider="target"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
-            <rect key="frame" x="0.0" y="0.0" width="350" height="70"/>
+            <rect key="frame" x="0.0" y="0.0" width="350" height="150"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h86-71-Ai5" customClass="OTTEntrantCell" customModule="OTTournamentView" customModuleProvider="target">
-                    <rect key="frame" x="0.0" y="10" width="310" height="50"/>
+                    <rect key="frame" x="0.0" y="50" width="310" height="50"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="50" id="M4P-t4-Bff"/>
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ySB-lV-QBO">
-                    <rect key="frame" x="310" y="0.0" width="40" height="70"/>
+                    <rect key="frame" x="310" y="0.0" width="40" height="150"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Wx-43-aeP">
-                            <rect key="frame" x="0.0" y="34.5" width="40" height="1"/>
+                            <rect key="frame" x="0.0" y="74.5" width="40" height="1"/>
                             <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="1" id="nui-7H-efn"/>
@@ -43,11 +43,11 @@
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="h86-71-Ai5" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="6zU-le-ZNV"/>
                 <constraint firstItem="ySB-lV-QBO" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Ccd-4I-oba"/>
                 <constraint firstItem="ySB-lV-QBO" firstAttribute="leading" secondItem="h86-71-Ai5" secondAttribute="trailing" id="L4o-sa-4RR"/>
                 <constraint firstAttribute="bottom" secondItem="ySB-lV-QBO" secondAttribute="bottom" id="LxU-am-i5B"/>
                 <constraint firstItem="h86-71-Ai5" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="eOU-IH-wDW"/>
+                <constraint firstItem="h86-71-Ai5" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="zgd-H4-9jQ"/>
                 <constraint firstAttribute="trailing" secondItem="ySB-lV-QBO" secondAttribute="trailing" id="zrO-JU-tPt"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>

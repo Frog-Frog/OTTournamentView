@@ -26,6 +26,10 @@
 		04BF15871F59AB7900BE9044 /* OTTournamentViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF15811F59AB7900BE9044 /* OTTournamentViewDelegate.swift */; };
 		04BF15911F59BA2700BE9044 /* OTTEntrantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF15901F59BA2700BE9044 /* OTTEntrantCell.swift */; };
 		04BF15921F59BA2700BE9044 /* OTTEntrantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF15901F59BA2700BE9044 /* OTTEntrantCell.swift */; };
+		04C2DA0D1F5ED0580037C110 /* OTTWinnerEntrantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C2DA0C1F5ED0580037C110 /* OTTWinnerEntrantView.swift */; };
+		04C2DA0E1F5ED0580037C110 /* OTTWinnerEntrantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C2DA0C1F5ED0580037C110 /* OTTWinnerEntrantView.swift */; };
+		04C2DA101F5ED0660037C110 /* OTTWinnerEntrantView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C2DA0F1F5ED0660037C110 /* OTTWinnerEntrantView.xib */; };
+		04C2DA111F5ED0660037C110 /* OTTWinnerEntrantView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C2DA0F1F5ED0660037C110 /* OTTWinnerEntrantView.xib */; };
 		04D5BCC41F59E7D600F8849A /* OTTEntrantCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D5BCC31F59E7D600F8849A /* OTTEntrantCell.xib */; };
 		04D5BCC51F59E7D600F8849A /* OTTEntrantCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D5BCC31F59E7D600F8849A /* OTTEntrantCell.xib */; };
 /* End PBXBuildFile section */
@@ -55,6 +59,8 @@
 		04BF15801F59AB7900BE9044 /* OTTournamentViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTTournamentViewDataSource.swift; sourceTree = "<group>"; };
 		04BF15811F59AB7900BE9044 /* OTTournamentViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTTournamentViewDelegate.swift; sourceTree = "<group>"; };
 		04BF15901F59BA2700BE9044 /* OTTEntrantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OTTEntrantCell.swift; path = Classes/OTTEntrantCell/OTTEntrantCell.swift; sourceTree = SOURCE_ROOT; };
+		04C2DA0C1F5ED0580037C110 /* OTTWinnerEntrantView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OTTWinnerEntrantView.swift; path = Classes/OTTWinnerEntrantView/OTTWinnerEntrantView.swift; sourceTree = SOURCE_ROOT; };
+		04C2DA0F1F5ED0660037C110 /* OTTWinnerEntrantView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OTTWinnerEntrantView.xib; path = Classes/OTTWinnerEntrantView/OTTWinnerEntrantView.xib; sourceTree = SOURCE_ROOT; };
 		04D5BCC31F59E7D600F8849A /* OTTEntrantCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OTTEntrantCell.xib; path = Classes/OTTEntrantCell/OTTEntrantCell.xib; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -121,6 +127,7 @@
 				04BF158F1F59BA0400BE9044 /* OTTEntrantCell */,
 				045FECE51F5D860E004F555D /* OTTSingleEntrantView */,
 				045FECE41F5D85E3004F555D /* OTTDoubleEntrantView */,
+				04C2DA0B1F5ED0130037C110 /* OTTWinnerEntrantView */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -164,6 +171,15 @@
 				04D5BCC31F59E7D600F8849A /* OTTEntrantCell.xib */,
 			);
 			name = OTTEntrantCell;
+			sourceTree = "<group>";
+		};
+		04C2DA0B1F5ED0130037C110 /* OTTWinnerEntrantView */ = {
+			isa = PBXGroup;
+			children = (
+				04C2DA0C1F5ED0580037C110 /* OTTWinnerEntrantView.swift */,
+				04C2DA0F1F5ED0660037C110 /* OTTWinnerEntrantView.xib */,
+			);
+			name = OTTWinnerEntrantView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +280,7 @@
 			files = (
 				045FECF01F5D888F004F555D /* OTTDoubleEntrantView.xib in Resources */,
 				04D5BCC41F59E7D600F8849A /* OTTEntrantCell.xib in Resources */,
+				04C2DA101F5ED0660037C110 /* OTTWinnerEntrantView.xib in Resources */,
 				045FECED1F5D887E004F555D /* OTTSingleEntrantView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +291,7 @@
 			files = (
 				045FECF11F5D888F004F555D /* OTTDoubleEntrantView.xib in Resources */,
 				04D5BCC51F59E7D600F8849A /* OTTEntrantCell.xib in Resources */,
+				04C2DA111F5ED0660037C110 /* OTTWinnerEntrantView.xib in Resources */,
 				045FECEE1F5D887E004F555D /* OTTSingleEntrantView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +309,7 @@
 				04BF15911F59BA2700BE9044 /* OTTEntrantCell.swift in Sources */,
 				04BF15861F59AB7900BE9044 /* OTTournamentViewDelegate.swift in Sources */,
 				045FECEA1F5D8857004F555D /* OTTSingleEntrantView.swift in Sources */,
+				04C2DA0D1F5ED0580037C110 /* OTTWinnerEntrantView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +323,7 @@
 				04BF15831F59AB7900BE9044 /* OTTournamentView.swift in Sources */,
 				0481C8891F5D7B6A00FBE0DA /* OTTournamentViewTests.swift in Sources */,
 				04BF15921F59BA2700BE9044 /* OTTEntrantCell.swift in Sources */,
+				04C2DA0E1F5ED0580037C110 /* OTTWinnerEntrantView.swift in Sources */,
 				04BF15871F59AB7900BE9044 /* OTTournamentViewDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

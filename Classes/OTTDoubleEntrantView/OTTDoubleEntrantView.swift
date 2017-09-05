@@ -11,12 +11,22 @@ import UIKit
 class OTTDoubleEntrantView: UIView {
 
     @IBOutlet weak var cellHeightConstraint: NSLayoutConstraint!
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    
+    //MARK:Initialize
+    public override init(frame: CGRect) {
+        super.init(frame: frame)
+        initialize()
     }
-    */
+    
+    
+    required public init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        initialize()
+    }
+    
+    
+    func initialize() {
+        
+    }
 
 }
